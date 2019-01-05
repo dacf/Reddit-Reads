@@ -1,0 +1,72 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "reddit read it",
+      "types": [],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetTILDataIntent",
+          "slots": [],
+          "samples": [
+            "I want til",
+            "Today I learned",
+            "Today I learn",
+            "Today I learnt"
+          ]
+        },
+          {
+          "name": "GetNewsDataIntent",
+          "slots": [],
+          "samples": [
+            "I want news",
+            "news",
+            "today news",
+            "reddit news"
+          ]
+        },
+          {
+          "name": "GetShowerDataIntent",
+          "slots": [],
+          "samples": [
+            "I want shower",
+            "shower",
+            "shower thoughts",
+            "thoughts"
+          ]
+        },
+          {
+          "name": "GetLPTDataIntent",
+          "slots": [],
+          "samples": [
+            "I want life pro tips",
+            "life pro tips",
+            "lpt",
+            "life tips"
+          ]
+        },
+          {
+          "name": "GetWorldNewsDataIntent",
+          "slots": [],
+          "samples": [
+            "I want world news",
+            "world news",
+            "news about the world",
+            "news world subreddit"
+          ]
+        }
+      ]
+    }
+  }
+}
